@@ -51,3 +51,7 @@ dockerBuildNative {
     images = ["${System.env.DOCKER_IMAGE ?: project.name}:$project.version"]
 }
 
+dockerfileNative {
+    baseImage('gcr.io/distroless/cc-debian10')
+}
+
