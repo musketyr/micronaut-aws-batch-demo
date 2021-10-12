@@ -1,0 +1,6 @@
+applicationType: cli
+defaultPackage: com.agorapulse
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, github-workflow-graal-docker-registry, graalvm, gradle, java, junit, logback, picocli, picocli-java-application, picocli-junit, readme, shade, yaml]
